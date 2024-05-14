@@ -6,7 +6,7 @@
 
 :root {
   --first: rgb(9, 60, 9);
-  --text-color: rgb(230, 227, 227);
+  --text-color: rgb(241, 239, 239);
   --text-color-dark: rgb(53, 53, 53);
   --border-radius: 1rem;
 }
@@ -45,7 +45,7 @@ h3 {
 p,
 li {
   line-height: 1.5;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 nav {
