@@ -5,9 +5,11 @@
 }
 
 :root {
-  --first: rgb(9, 60, 9);
-  --text-color: rgb(241, 239, 239);
-  --text-color-dark: rgb(53, 53, 53);
+  --first: #bccedf;
+  --second: #174672;
+  --third: #faeae9;
+  --text-color-dark: #353535;
+  --text-color-light: rgb(241, 239, 239);
   --border-radius: 1rem;
 }
 
@@ -32,7 +34,6 @@ h1 {
 }
 
 h2 {
-  color: var(--text-color-dark);
   text-align: center;
   padding: 5px;
   font-weight: 400;
@@ -56,12 +57,12 @@ nav {
   align-items: center;
   position: sticky;
   top: 0;
-  border-top: solid var(--text-color);
-  border-bottom: solid var(--text-color);
+  border-top: solid var(--text-color-light);
+  border-bottom: solid var(--text-color-light);
 }
 
 .h2-container {
-  border: thick double var(--first);
+  border: thick double var(--second);
   margin: 5% 0 5% -10%;
   width: 70%;
   border-radius: var(--border-radius);
@@ -82,7 +83,7 @@ article {
 
 a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--text-color-dark);
 }
 
 a:hover {
