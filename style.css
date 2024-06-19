@@ -126,6 +126,15 @@ img {
   width: auto;
 }
 
+.about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto {
+  height: 20vh;
+}
+
 .me-text {
   color: var(--text-color-dark);
   padding: 0 3rem;
