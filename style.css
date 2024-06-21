@@ -96,10 +96,11 @@ a:hover {
   gap: 2rem;
   flex-wrap: wrap;
   color: var(--text-color-dark);
+  justify-content: center;
 }
 
 li {
-  list-style: circle;
+  list-style: none;
 }
 
 .project-container {
@@ -107,6 +108,7 @@ li {
   gap: 2rem;
   flex-wrap: wrap;
   border-radius: var(--border-radius);
+  justify-content: center;
 }
 
 img {
