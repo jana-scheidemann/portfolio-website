@@ -5,34 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
-    <title>Jana Scheidemann | Web Developer</title>
+    <title>Jana Scheidemann - Web Developer</title>
   </head>
 
   <body>
-    <header class="titel-container">
-      <h1>Jana Scheidemann - Web Developer</h1>
-      <a href="mailto:jana.scheidemann@freenet.de"
-        ><img src="assets/icons/mail.svg" alt="click to send an email"
-      /></a>
-      <a href="https://github.com/jana-scheidemann" target="_blank"
-        ><img
-          src="assets/icons/github.svg"
-          alt="GitHub profile Jana Scheidemann"
-      /></a>
-      <a href="https://www.linkedin.com/in/jana-scheidemann/" target="_blank"
-        ><img
-          src="assets/icons/linkedin.svg"
-          alt="LinkedIn profile Jana Scheidemann"
-      /></a>
+    <header class="title-container">
+      <p class="title">Jana Scheidemann</p>
+      <nav>
+        <a href="#AboutMe">about me</a>
+        <a href="#TechStack">tech stack & skills</a>
+        <a href="#Projects">projects</a>
+      </nav>
     </header>
 
-    <nav>
-      <a href="#TechStack">↓ tech stack & skills</a>
-      <a href="#Projects">↓ projects</a>
-      <a href="#AboutMe">↓ about me</a>
-    </nav>
-
     <main>
+      <div class="about-container">
+        <h1>
+          Jana Scheidemann.
+          <br />
+          Passionate about accessibility and diversity.
+        </h1>
+
+        <img
+          src="assets/img/foto.png"
+          alt="Headshot of Jana smiling to the camera. She has brown hair that falls on her shoulders and wears a dark blue and red striped pullover."
+          class="foto"
+        />
+      </div>
+      <section id="AboutMe">
+        <div class="h2-container"><h2>about me</h2></div>
+        <div class="me-text">
+          <p>
+            I discovered my passion for programming via a web development
+            bootcamp. While my former work experience was in HR, educational
+            projects and coaching, I am now conquering the world of coding.
+            <br />
+            <br />
+            I choose this career path to make things better, easier and more
+            accessible for everybody. What combines my previous and future work
+            are my problem solving mentality, high communication skills and the
+            desire for continuous improvement.
+            <br />
+            <br />
+            Right now I concentrate on improving my skills in React, but I am
+            also curious to learn new languages, frameworks etc.
+          </p>
+          <h3>get in touch</h3>
+          <a href="mailto:jana.scheidemann@freenet.de"
+            ><img
+              src="assets/icons/mail.svg"
+              alt="send an email to Jana Scheidemann"
+          /></a>
+          <a href="https://github.com/jana-scheidemann" target="_blank"
+            ><img
+              src="assets/icons/github.svg"
+              alt="GitHub profile Jana Scheidemann"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/jana-scheidemann/"
+            target="_blank"
+            ><img
+              src="assets/icons/linkedin.svg"
+              alt="LinkedIn profile Jana Scheidemann"
+          /></a>
+        </div>
+      </section>
+
       <section id="TechStack">
         <div class="h2-container">
           <h2>tech stack & skills</h2>
@@ -76,7 +114,7 @@
 
         <div class="project-container">
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>Map with tooltip</h3>
               <a href="https://map-with-tooltip.vercel.app" target="_blank"
                 ><img
@@ -111,7 +149,7 @@
           </article>
 
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>Quiz Carousel</h3>
               <a
                 href="https://quiz-app-with-react-five.vercel.app"
@@ -153,7 +191,7 @@
           </article>
 
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>DIY 2.0</h3>
               <a href="https://diy-2.vercel.app/" target="_blank"
                 ><img
@@ -197,7 +235,7 @@
           </article>
 
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>DIY App</h3>
               <a href="https://diy-app-opal.vercel.app/" target="_blank"
                 ><img
@@ -245,7 +283,7 @@
           </article>
 
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>Quiz App</h3>
               <a href="https://quiz-app-mu-gules.vercel.app/" target="_blank"
                 ><img
@@ -285,7 +323,7 @@
           </article>
 
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>Weather and Activity App</h3>
               <a
                 href="https://weather-and-activities-app-eight.vercel.app/"
@@ -327,7 +365,7 @@
           </article>
 
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>Portfolio website</h3>
               <a
                 href="https://jana-scheidemann.github.io/portfolio-website/"
@@ -362,7 +400,7 @@
           </article>
 
           <article>
-            <div class="titel-container">
+            <div class="title-container">
               <h3>HTML workout</h3>
               <a href="https://html-workout.vercel.app/" target="_blank"
                 ><img
@@ -395,37 +433,13 @@
           </article>
         </div>
       </section>
-
-      <section id="AboutMe">
-        <div class="h2-container"><h2>about me</h2></div>
-        <div class="about-container">
-          <p class="me-text">
-            I discovered my passion for programming via a web development
-            bootcamp. While my former work experience was in HR, educational
-            projects and coaching, I am now conquering the world of coding.
-            <br />
-            <br />
-            I choose this career path to make things better, easier and more
-            accessible for everybody. What combines my previous and future work
-            are my problem solving mentality, high communication skills and the
-            desire for continuous improvement.
-            <br />
-            <br />
-            Right now I concentrate on improving my skills in React, but I am
-            also curious to learn new languages, frameworks etc.
-          </p>
-          <img
-            src="assets/img/foto.png"
-            alt="picture of me smiling to the camera"
-            class="foto"
-          />
-        </div>
-      </section>
     </main>
 
     <footer>
       <a href="mailto:jana.scheidemann@freenet.de"
-        ><img src="assets/icons/mail.svg" alt="click to send an email"
+        ><img
+          src="assets/icons/mail.svg"
+          alt="send an email to Jana Scheidemann"
       /></a>
       <a href="https://github.com/jana-scheidemann" target="_blank"
         ><img
